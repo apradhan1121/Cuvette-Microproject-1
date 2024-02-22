@@ -1,0 +1,77 @@
+.whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#Third{
+    font-weight: bold;
+}
+#First{
+    font-weight: bold;
+    font-size: 30px;
+}
+#Fifth{
+    color: white;
+    font-size: small;
+    padding-left: 15px;
+}
+.input{
+    margin: 3px;
+}
+input[type="email"] {
+    height: 1.75rem;
+    width: 10rem;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.content{
+    /* background-color: antiquewhite; */
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color: #FFCD9E;
+}
+
+.poster img{
+    width: 275px;
+    height: 275px;
+    mix-blend-mode: multiply;
+    display: 100%;
+}
+.lower{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.967);
+}
+.lower li{
+    list-style-type: none;
+}
+#insta{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: left;
+}
+#lastli{
+    padding-top: 35px;
+    text-align: end;
+}
+#text-align{
+    text-align: end;
+}
